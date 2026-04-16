@@ -7,3 +7,9 @@
 body {
     background-color: red;
 }
+
+.cabecalho {
+    height: 160px;
+    padding: 20px;
+    background-color: blue;
+}
