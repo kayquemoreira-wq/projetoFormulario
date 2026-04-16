@@ -42,9 +42,25 @@ textarea {
 }
 
 .form-container {
-    background-color: #ff0000;
+    background-color: white;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -46px;
+}
+
+.form-header {
+    border-bottom: 1px solid white;
+    height: 45px;
+}
+
+.form-header p {
+    color: #120a91;
+    border-bottom: 2px solid #120a91;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
 }
