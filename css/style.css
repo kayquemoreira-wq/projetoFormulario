@@ -12,10 +12,6 @@ h1, h2, h4, h5, h6 {
     color: #120a91;
 }
 
-h3 {
-    color: #bd0003;
-}
-
 p, label {
     color: white;
 }
@@ -41,7 +37,7 @@ textarea {
 }
 
 .cabecalho h3 {
-    color: #07043d;
+    color: #bd0003;
     margin-top: 0;
 }
 
