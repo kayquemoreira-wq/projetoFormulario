@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h4, h5, h6 {
-    color: #180daf;
+    color: #ffffff;
 }
 
 p, label {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(31, 31, 31);
+    background-color: #447BBE;
     width: 60%;
     margin: 0 auto;
     position: relative;
