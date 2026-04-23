@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h4, h5, h6 {
-    color: #120a91;
+    color: #0d0763;
 }
 
 p, label {
@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #0f0875;
+    background-color: #120a91;
 }
 
 .cabecalho h3 {
