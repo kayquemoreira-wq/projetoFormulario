@@ -95,6 +95,6 @@ textarea {
 }
 
 .caixaOpicional li {
-    list-style: nome;
+    list-style: none;
     margin-bottom: 5px;
 }
