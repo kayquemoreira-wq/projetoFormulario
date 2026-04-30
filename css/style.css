@@ -23,8 +23,17 @@ input {
     color: black;
 }
 
+input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
+    color: black;
 }
 
 textarea {
