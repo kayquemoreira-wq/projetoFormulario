@@ -39,5 +39,8 @@ function salvarCarro(event) {
     <p><strong>Câmbio:</strong> R$ ${carro.cambio}</p>
     `
     lista.appendChild(card);
+}
 
+window.onload = function () {
+    let carros = JSON.parse(localStorage.getItem ('carros')) || [];
 }
