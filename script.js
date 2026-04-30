@@ -25,10 +25,11 @@ function salvarCarro(event) {
     adicionarNaTela(carro);
 
     document.querySelector("form").reset();
+}
 
-    function adicionarNaTela(carro) {
+function adicionarNaTela(carro) {
     let lista = document.getElementById('listaCarros');
-    let card = document.getElementById('div');
+    let card = document.createElement('div');
     card.classList.add('card');
 
     card.innerHTML = `
@@ -36,13 +37,14 @@ function salvarCarro(event) {
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
     <p><strong>Marca:</strong> R$ ${carro.marca}</p>
     <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
-    <p><strong>Câmbio:</strong> R$ ${carro.cambio}</p>
+    <p><strong>Câmbio:</strong> ${carro.cambio}</p>
     `
+
     lista.appendChild(card);
 }
 
 window.onload = function () {
-    let carros = JSON.parse(localStorage.getItem ('carros')) || [];
+    let carros = JSON.parse(localStorage.getItem('carros')) || [];
 
     carros.forEach(carro => {
         adicionarNaTela(carro);
