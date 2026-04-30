@@ -40,8 +40,9 @@ function adicionarNaTela(carro) {
     <p><strong>Marca:</strong> ${carro.marca}</p>
     <p><strong>Modelo:</strong> ${carro.modelo}</p>
     <p><strong>Câmbio:</strong> ${carro.cambio}</p>
-    `
 
+    <button oneclick = "excluirCarro(${carro.id}">Excluir</button>
+    `
     lista.appendChild(card);
 }
 
